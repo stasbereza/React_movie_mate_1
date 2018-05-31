@@ -17,5 +17,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://stasbereza.github.io/homework_1_React"
+  "homepage": "https://stasbereza.github.io/React_movie_mate_1/build/"
 }
