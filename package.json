@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "dotenv": "^5.0.1",
+    "jshint": "^2.9.5",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -15,5 +16,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "homepage": "http://stasbereza.github.io/homework_1_React"
 }

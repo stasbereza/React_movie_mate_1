@@ -24,7 +24,7 @@ class Navbar extends React.Component {
 Navbar.propTypes = {
     menuItemOne: PropTypes.string.isRequired,
     menuItemTwo: PropTypes.string.isRequired,
-    menuItemThree: PropTypes.string.isRequired
+    menuItemThree: PropTypes.string.isRequired,
 };
 
 export default Navbar;
