@@ -1,6 +1,5 @@
 .MovieList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 60%;
 }

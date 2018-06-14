@@ -1,30 +1,19 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './styles.css';
 
-class Navbar extends React.Component {
-    render() {
-        const { menuItemOne, menuItemTwo, menuItemThree } = this.props; 
+const menu = ['login', 'browse', 'about'];
 
-        return (
-            <ul className="Navbar">
-                <li className="Navbar__elem">
-                    <a className="Navbar__link" href="">{menuItemOne}</a>
-                </li>
-                <li className="Navbar__elem">
-                    <a className="Navbar__link" href="">{menuItemTwo}</a>
-                </li>
-                <li className="Navbar__elem">
-                    <a className="Navbar__link" href="">{menuItemThree}</a>
-                </li>
-            </ul>
-        );
-    }
-}
-Navbar.propTypes = {
-    menuItemOne: PropTypes.string.isRequired,
-    menuItemTwo: PropTypes.string.isRequired,
-    menuItemThree: PropTypes.string.isRequired,
-};
+const Navbar = () => (
+    <ul className="Navbar">
+      {menu.map(menuItem =>
+        <li key={menuItem} className="Navbar__elem">
+          <a className="Navbar__link" href="">{menuItem}</a>
+        </li>
+        )}
+    </ul>
+    );
 
 export default Navbar;
+
+
+
